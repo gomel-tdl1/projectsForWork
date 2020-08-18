@@ -1,5 +1,6 @@
 @import "../css/nullStyleSheets.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .wrapper {
   width: 100%;
 }
@@ -199,6 +200,51 @@
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 2px;
+}
+
+.footer .footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #4d4959;
+  font-family: "Lato", sans-serif;
+}
+.footer .footer__container .footer__info .info__profile {
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.footer .footer__container .footer__info .info__address {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 3px;
+}
+.footer .footer__container .footer__info .info__mail {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 3px;
+}
+.footer .footer__container .footer__messenger {
+  display: flex;
+  justify-content: center;
+}
+.footer .footer__container .footer__messenger .messenger__item {
+  margin-right: 8px;
+}
+.footer .footer__container .footer__messenger .messenger__item img {
+  width: 30px;
+}
+.footer .footer__container .footer__messenger .messenger__item:hover {
+  transform: scale(1.1);
+}
+.footer .footer__container .footer__handcraft {
+  font-size: 13.5px;
+  font-style: italic;
+}
+.footer .footer__container .footer__handcraft span {
+  font-size: 14px;
+  font-family: "Permanent Marker", cursive;
 }
 
 .title {
