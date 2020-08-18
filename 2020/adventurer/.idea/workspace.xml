@@ -2,67 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e32603-946e-496f-9ed2-1221ab3604e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LearnHtmlCss.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gomel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/css/nullStyleSheets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/css/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/costumer/before.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/costumer/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/costumer/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/fourh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/itemBd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/counter/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/footer/sent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/join/awatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/join/shattered-island.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/menu/MAGNIFYING_GLASS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/offer/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/offer/fourth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/offer/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/offer/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/first-invers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/second-invers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/third-invers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/service/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/slider/ARROW_/_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/slider/ARROW_/_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/slider/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/ball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/behance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/fourth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/printerest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/team/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/fifth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/five.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/fourth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/sixth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/image/work/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sourses/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP/adventurer.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/LearnHtmlCss.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/dictionaries/gomel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/misc.xml" beforeDir="false" />
@@ -92,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/../TelegramBot/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TelegramBot/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TelegramBot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,8 +112,16 @@
       <workItem from="1597602251960" duration="645000" />
       <workItem from="1597603841605" duration="1672000" />
       <workItem from="1597654446200" duration="131000" />
-      <workItem from="1597664918470" duration="247000" />
+      <workItem from="1597664918470" duration="887000" />
     </task>
+    <task id="LOCAL-00001" summary="full">
+      <created>1597665196866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597665196866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="full" />
+    <option name="LAST_COMMIT_MESSAGE" value="full" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="178" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1596468886714">
