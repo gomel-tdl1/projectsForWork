@@ -2,26 +2,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .wrapper {
-  width: 100%;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .container {
-  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
 }
 
 .menu {
-  height: 650px;
+  height: 100%;
   background: url(../image/header/bg.png) center no-repeat;
   background-size: cover;
 }
 .menu .menu__container {
   display: flex;
   justify-content: center;
+}
+.menu .menu__container__body {
+  display: flex;
+  justify-content: center;
   align-items: center;
   height: 60px;
   padding-top: 30px;
 }
-.menu .menu__container .menu_item {
+.menu .menu__container__body .menu_item {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -30,11 +39,11 @@
   margin-right: 15px;
   margin-left: 15px;
 }
-.menu .menu__container .menu__logo {
+.menu .menu__container__body .menu__logo {
   margin-right: 15px;
   margin-left: 15px;
 }
-.menu .menu__container .menu__logo img {
+.menu .menu__container__body .menu__logo img {
   height: 60px;
 }
 
@@ -203,9 +212,6 @@
 }
 
 .footer .footer__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding-top: 60px;
   padding-bottom: 50px;
   color: #4d4959;
@@ -327,8 +333,40 @@
   .gallery .gallery__container .gallery__item__center {
     width: 33.3333333%;
   }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 @media (max-width: 767px) {
+  .menu__burger {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    right: 20px;
+    top: 20px;
+  }
+  .menu__burger:after, .menu__burger:before,
+.menu__burger span {
+    content: "";
+    position: absolute;
+    background-color: #282f35;
+    width: 100%;
+    height: 3px;
+    left: 0;
+  }
+  .menu__burger:before {
+    top: 0;
+  }
+  .menu__burger:after {
+    bottom: 0;
+  }
+  .menu__burger span {
+    top: 8.5px;
+  }
+
   .bigArea {
     width: 100%;
   }
@@ -339,5 +377,10 @@
 
   .collage {
     width: 100%;
+  }
+
+  .footer__container {
+    margin: 0 auto;
+    max-width: 90%;
   }
 }

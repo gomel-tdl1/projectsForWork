@@ -2,43 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.wrapper{
-  width: 100%;
+.wrapper {
+  overflow: hidden;
+  min-width:100%;
+  min-height: 100%;
 }
+
 .container {
-  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  //display: flex;
+  //flex-direction: column;
 }
 
 .menu {
-  height: 650px;
+  height: 100%;
   background: url(../image/header/bg.png) center no-repeat;
   background-size: cover;
 
   .menu__container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 60px;
+    &__body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
 
-    padding-top: 30px;
+      padding-top: 30px;
 
-    .menu_item {
-      font-family:'Lato', sans-serif;
-      font-weight: 700;
-      font-size: 13px;
-      text-transform: uppercase;
-      color: #4d4959;
+      .menu_item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #4d4959;
 
-      margin-right: 15px;
-      margin-left: 15px;
-    }
+        margin-right: 15px;
+        margin-left: 15px;
+      }
 
-    .menu__logo {
-      margin-right: 15px;
-      margin-left: 15px;
+      .menu__logo {
+        margin-right: 15px;
+        margin-left: 15px;
 
-      img {
-        height: 60px;
+        img {
+          height: 60px;
+        }
       }
     }
   }
@@ -159,13 +171,15 @@
       .item__column {
         display: flex;
         height: 50%;
-        img{
+
+        img {
           width: 100%;
         }
 
         .item__row {
           width: 50%;
-          img{
+
+          img {
             width: 100%;
           }
         }
@@ -178,7 +192,7 @@
       .item__col {
         width: 50%;
 
-        img{
+        img {
           width: 100%;
         }
       }
@@ -208,7 +222,8 @@
         word-spacing: 3px;
 
         transition: all 0.6s ease;
-        &:hover{
+
+        &:hover {
           background-color: #64c29e;
         }
       }
@@ -223,34 +238,39 @@
     text-align: center;
 
     .contact__logo {
-      img{
+      img {
         width: 70px;
       }
     }
+
     .contact__text {
       font-style: italic;
       font-size: 15px;
 
       margin-top: 25px;
     }
+
     .contact__form {
       display: flex;
       justify-content: center;
       max-width: 90%;
 
       margin: 25px auto;
-      .form__textArea{
+
+      .form__textArea {
         width: 350px;
         height: 50px;
 
-        border-right:0.8px solid #d3d7d9;
+        border-right: 0.8px solid #d3d7d9;
 
         display: flex;
         align-items: center;
       }
+
       .form__button {
         margin-left: 15px;
-        button{
+
+        button {
           height: 50px;
           width: 80px;
           background-color: #64c29e;
@@ -268,10 +288,6 @@
 
 .footer {
   .footer__container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
     padding-top: 60px;
     padding-bottom: 50px;
 
@@ -280,17 +296,19 @@
 
     .footer__info {
 
-      
+
       .info__profile {
         font-size: 13.5px;
         font-weight: 700;
       }
+
       .info__address {
         font-size: 12px;
         font-style: italic;
 
         margin-top: 3px;
       }
+
       .info__mail {
         font-size: 13px;
         font-style: italic;
@@ -298,23 +316,28 @@
         margin-top: 3px;
       }
     }
+
     .footer__messenger {
       display: flex;
       justify-content: center;
 
-      .messenger__item{
+      .messenger__item {
         margin-right: 8px;
-        img{
+
+        img {
           width: 30px;
         }
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
         }
       }
     }
+
     .footer__handcraft {
       font-size: 13.5px;
       font-style: italic;
+
       span {
         font-size: 14px;
         font-family: 'Permanent Marker', cursive;
@@ -411,24 +434,67 @@
   .gallery {
     .gallery__container {
       display: flex;
+
       .gallery__item {
         width: 33.3333333%;
       }
+
       .gallery__item__center {
         width: 33.3333333%;
       }
     }
   }
+  .footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
+  .menu{
+    .menu__container{
+    }
+    &__burger{
+      position: relative;
+      width: 30px;
+      height: 20px;
+      right: 20px;
+      top: 20px;
+
+      &:after,
+      &:before,
+      span{
+        content: '';
+        position: absolute;
+        background-color: #282f35;
+        width: 100%;
+        height: 3px;
+        left: 0;
+      }
+      &:before{
+        top: 0;
+      }
+      &:after{
+        bottom: 0;
+      }
+      span{
+        top: 8.5px;
+      }
+    }
+  }
+
   .bigArea {
     width: 100%;
   }
   .smallArea {
     width: 100%;
   }
-  .collage{
+  .collage {
     width: 100%;
+  }
+  .footer__container {
+    margin: 0 auto;
+    max-width: 90%;
   }
 }
