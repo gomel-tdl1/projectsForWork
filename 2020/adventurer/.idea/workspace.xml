@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e32603-946e-496f-9ed2-1221ab3604e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/LearnHtmlCss.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/dictionaries/gomel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/another/IFSC_licence_2020_Aa_TALDYKIN_Ilya.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/css/nullStyleSheets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/image/Awatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/image/istockphoto-186120417-1024x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/image/noneBG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/Sourses/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arina_Lending/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/.idea/LearnHtmlCss.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/.idea/dictionaries/gomel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/Sourses/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/Sourses/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/Sourses/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnHtmlCss/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/.idea/TelegramBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TelegramBot/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e5e32603-946e-496f-9ed2-1221ab3604e0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +82,7 @@
       <workItem from="1597603841605" duration="1672000" />
       <workItem from="1597654446200" duration="131000" />
       <workItem from="1597664918470" duration="887000" />
+      <workItem from="1600325484676" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="full">
       <created>1597665196866</created>
