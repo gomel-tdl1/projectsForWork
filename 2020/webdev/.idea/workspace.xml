@@ -26,10 +26,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projectsForWork/2020/Bicycle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projectsForWork" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Web\HTMLPractik\webdev\assets\download" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Web\HTMLPractik\webdev\assets" />
     </key>
@@ -45,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600325228471</updated>
       <workItem from="1600325231388" duration="7783000" />
-      <workItem from="1600354258412" duration="5412000" />
+      <workItem from="1600354258412" duration="14154000" />
     </task>
     <servers />
   </component>
@@ -57,10 +60,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="404" y="143" width="727" height="681" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1600329990420" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600354942611">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600359889186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600354942611" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600359889186" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600356988670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
