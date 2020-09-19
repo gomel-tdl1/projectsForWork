@@ -262,6 +262,10 @@
   display: flex;
   cursor: pointer;
 }
+.download .download__select .custom-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 4px #009CC2;
+}
 .download .download__select .custom-button .custom__text {
   display: flex;
   align-items: center;
@@ -307,6 +311,9 @@
   font-size: 13px;
   line-height: 140%;
   opacity: 0.98;
+}
+.footer .footer__container .footer__links .links__item a:hover {
+  text-decoration: underline;
 }
 .footer .footer__container .footer__links .links__item:after {
   content: "|";

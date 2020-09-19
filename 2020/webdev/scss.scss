@@ -293,6 +293,10 @@
     .custom-button {
       display: flex;
       cursor: pointer;
+      &:hover{
+        transform:translateY(-5px);
+        box-shadow: 0 5px 4px #009CC2;
+      }
 
       .custom__text {
         display: flex;
@@ -345,6 +349,9 @@
           font-size: 13px;
           line-height: 140%;
           opacity: 0.98;
+          &:hover{
+            text-decoration: underline;
+          }
         }
 
         &:after{
