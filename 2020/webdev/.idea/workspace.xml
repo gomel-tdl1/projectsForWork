@@ -16,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1hcza5saZFnN7H5zJMPB8PMHeoW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,7 +51,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600325228471</updated>
       <workItem from="1600325231388" duration="7783000" />
-      <workItem from="1600354258412" duration="14154000" />
+      <workItem from="1600354258412" duration="14485000" />
+      <workItem from="1600435623395" duration="7290000" />
+      <workItem from="1600459419934" duration="683000" />
+      <workItem from="1600501289294" duration="3452000" />
     </task>
     <servers />
   </component>
@@ -60,10 +66,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="404" y="143" width="727" height="681" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1600329990420" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600359889186">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600368621210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600359889186" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600368621210" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600356988670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
