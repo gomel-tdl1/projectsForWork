@@ -56,13 +56,30 @@
       <workItem from="1600459419934" duration="683000" />
       <workItem from="1600501289294" duration="3452000" />
       <workItem from="1600539213396" duration="719000" />
+      <workItem from="1600539968963" duration="49000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: fixed download and footer">
+      <created>1600540000416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600540000416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: fixed download and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fixed download and footer" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1600539997874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600539997874" />
     <state x="404" y="143" width="727" height="681" key="EditFileWatcherDialog" timestamp="1600329990420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -71,6 +88,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600368621210" />
+    <state x="360" y="142" key="Vcs.Push.Dialog.v2" timestamp="1600540006022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600540006022" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600356988670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

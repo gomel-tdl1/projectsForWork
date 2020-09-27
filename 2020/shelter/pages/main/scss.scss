@@ -1,0 +1,522 @@
+@import 'nullStyleSheets.css';
+
+@font-face {
+  font-family: 'Georgia-mine';
+  src: url('../../assets/fonts/georgia.eot');
+  src: local('☺'), url('../../assets/fonts/georgia.woff') format('woff'), url('../../assets/fonts/georgia.ttf') format('truetype'), url('../../assets/fonts/georgia.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1920px;
+  min-height: 100%;
+
+  .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .start-screen {
+      background: url(../../assets/main-page/start-screen/start-screen-gradient-background.png) center no-repeat;
+      background-size: cover;
+      min-width: 1920px;
+      min-height: 910px;
+      display: flex;
+      justify-content: center;
+      padding-top: 65px;
+      cursor: url('../../assets/main-page/cursor/nolmal-light.png'), default;
+
+      .start-screen__container {
+        max-width: 1200px;
+
+        header.header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .header__logo {
+            h2.logo__title {
+              font-size: 32px;
+              line-height: 110%;
+              color: #F1CDB3;
+              letter-spacing: 0.06em;
+            }
+            p.logo__subtitle {
+              font-family: 'Arial', sans-serif;
+              font-size: 15px;
+              line-height: 15px;
+              letter-spacing: 0.03em;
+              color: #FFFFFF;
+              margin-left: 4px;
+              margin-top: 8px;
+            }
+          }
+
+          nav.navigation {
+            a.navigation__item {
+              font-family: Arial, sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 160%;
+              color: #CDCDCD;
+              margin-left: 33px;
+              &:hover{
+                color: #FAFAFA;
+                border-bottom: 2px solid #F1CDB3;
+              }
+            }
+          }
+        }
+
+        .start-screen__content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 45px;
+
+          .start-screen__info {
+            margin-left: 1px;
+            margin-right: 42px;
+            margin-top: -60px;
+
+            h1.start-screen__content__title {
+              font-size: 44px;
+              line-height: 130%;
+              color: #FFFFFF;
+              width: 310px;
+            }
+            p.start-screen__content__text {
+              font-size: 15px;
+              line-height: 160%;
+              color: #CDCDCD;
+              margin-top: 42px;
+            }
+            button.start-screen__content__button {
+              background-color: #F1CDB3;
+              margin-top: 41px;
+              &:hover{
+                background: #FDDCC4;
+              }
+            }
+          }
+          .start-screen__image {
+            margin-top: 13px;
+            img{
+              width:698px;
+            }
+          }
+        }
+      }
+    }
+    .container {
+      cursor: url('../../assets/main-page/cursor/normal-dark.png'), default;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+
+      .about {
+        padding: 81px 175px 100px 175px;
+        .about__container {
+          display: flex;
+          justify-content: space-between;
+
+          .about__image {
+            margin-right: 120px;
+            img{
+              width: 300px;
+            }
+          }
+          .about__info {
+            width: 430px;
+            h2.info__title.title {
+              font-size: 35px;
+              line-height: 130%;
+              letter-spacing: 0.06em;
+              color: #545454;
+              width: 370px;
+              margin-top: 14px;
+            }
+            p.info__text.text {
+              margin-top: 25px;
+              font-size: 15px;
+              line-height: 160%;
+              color: #4C4C4C;
+            }
+          }
+        }
+      }
+      .pets {
+        padding-top: 81px;
+        padding-bottom: 100px;
+
+        .pets__container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h2.pets__title.title {
+            width: 400px;
+            font-size: 35px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #545454;
+          }
+          .pets__slider {
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .slider__left {
+              height: 52px;
+              width: 52px;
+              border: 2px solid #F1CDB3;
+              box-sizing: border-box;
+              border-radius: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 53px;
+              &:hover{
+                background: #FDDCC4;
+                border: 2px solid #FDDCC4;
+              }
+            }
+            .slider__content {
+              text-align: center;
+              display: flex;
+              justify-content: space-between;
+              width: 990px;
+
+              .slider__content__card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 30px;
+                width: 270px;
+                height: 435px;
+                background: #FAFAFA;
+                border-radius: 9px;
+                text-align: center;
+
+                .card__photo {
+                  img{
+                    width: 200px;
+                  }
+                }
+                h3.card__name {
+                  margin-top: 30px;
+                  font-size: 22px;
+                  line-height: 23px;
+                  letter-spacing: 0.06em;
+                  color: #545454;
+                }
+                .card__button {
+                  margin-top: 30px;
+                  width: 187px;
+                  height: 52px;
+                  border: 2px solid #F1CDB3;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  &:hover{
+                    background-color: #FDDCC4;
+                    border: 2px solid #FDDCC4;
+                  }
+                }
+              }
+            }
+            .slider__right {
+              height: 52px;
+              width: 52px;
+              border: 2px solid #F1CDB3;
+              box-sizing: border-box;
+              border-radius: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 53px;
+              &:hover{
+                background: #FDDCC4;
+                border: 2px solid #FDDCC4;
+              }
+            }
+          }
+          .pets__button{
+            margin-top: 60px;
+            background: #F1CDB3;
+            width: 261px;
+            &:hover{
+              background: #FDDCC4;
+            }
+          }
+        }
+      }
+      .help {
+        padding-top: 76px;
+        padding-bottom: 104px;
+
+        .help__container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h2.help__title {
+            margin-top: 5px;
+            width: 308px;
+            font-size: 37px;
+            line-height: 125%;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #545454;
+          }
+
+          .help__grid-content {
+            margin-top: 60px;
+            height: 281px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .grid-content__first{
+              width: 1026px;
+              display: flex;
+              justify-content: space-between;
+            }
+
+            .grid-content__second{
+              margin-top: 55px;
+              padding-right: 20px;
+              padding-left: 20px;
+              width: 1026px;
+              display: flex;
+              justify-content: space-around;
+            }
+
+            .grid__item {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              .grid__item__logo{
+                width: 60px;
+                height: 60px;
+                text-align: center;
+              }
+              h3.grid__item__name {
+                margin-top: 28px;
+                font-size: 21px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #545454;
+              }
+            }
+          }
+        }
+      }
+      .donation {
+        padding-top: 76px;
+        padding-bottom: 100px;
+
+        .donation__container {
+          display: flex;
+          align-items: center;
+          padding-right: 143px;
+          padding-left: 142px;
+
+          .donation__image {
+            img{
+              width: 505px;
+            }
+          }
+          .donation__info {
+            margin-left: 32px;
+
+            h2.donation__info__title.title {
+              font-size: 35px;
+              line-height: 130%;
+              letter-spacing: 0.06em;
+              color: #545454;
+            }
+            h3.donation__info__subtitle.subtitle {
+              margin-top: 20px;
+              font-size: 15px;
+              line-height: 110%;
+              letter-spacing: 0.06em;
+              color: #545454;
+              font-family: 'Georgia-mine',sans-serif;
+              font-style: normal;
+              font-weight: normal;
+            }
+            .donation__info__card {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              width: 349px;
+              height: 43px;
+              background: #F1CDB3;
+              border-radius: 9px;
+              margin-top: 20px;
+
+              .card__logo {}
+              .card__number {
+                margin-left: 15px;
+                font-family: 'Georgia-mine',sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #545454;}
+              &:hover{
+                background: #FDDCC4;
+              }
+            }
+            p.donation__info__text.text {
+              font-family: 'Arial', sans-serif;
+              font-style: italic;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 18px;
+              color: #B2B2B2;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      min-width: 1920px;
+      cursor: url('../../assets/main-page/cursor/nolmal-light.png'), default;
+      padding-top: 40px;
+      background: url(../../assets/main-page/footer/footer-gradient-background.png) center no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+
+      .footer__container{
+        min-width: 1200px;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        .footer__contacts {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          margin-top: 22px;
+          width: 280px;
+
+          h2.contacts__title {
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+          }
+          .contacts__block {
+            display: flex;
+            align-items: center;
+            margin-top: 42.5px;
+
+            .block__logo {
+              img{
+                width: 40px;
+              }
+            }
+            .block__text {
+              margin-left: 20px;
+              font-family: 'Georgia-mine',sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 115%;
+              letter-spacing: 0.06em;
+              color: #F1CDB3;
+            }
+          }
+        }
+
+        .footer__position{
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          margin-top: 22px;
+          width: 302px;
+
+          h2.position__title {
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+          }
+          .position__block {
+            display: flex;
+            align-items: center;
+            margin-top: 33px;
+
+            .block__logo {
+              height: 32px;
+              img{
+                height: 32px;
+              }
+            }
+            .block__text {
+              margin-left: 20px;
+              font-family: 'Georgia-mine',sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 115%;
+              letter-spacing: 0.06em;
+              color: #F1CDB3;
+            }
+          }
+        }
+        .footer__image {}
+      }
+    }
+  }
+}
+
+//------------------------------------------------------------
+.title{
+  font-family: 'Georgia-mine', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text{
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.button{
+  width: 207px;
+  height: 52px;
+  font-family: 'Georgia-mine', sans-serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.pointer-light{
+  cursor: url("../../assets/main-page/cursor/pointer-light.png"),pointer;
+}
+.pointer-dark{
+  cursor: url("../../assets/main-page/cursor/pointer-dark.png"),pointer;
+}
