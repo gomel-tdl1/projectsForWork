@@ -25,10 +25,10 @@
   background: url(../../assets/main-page/start-screen/start-screen-gradient-background.png) center no-repeat;
   background-size: cover;
   min-width: 1920px;
-  min-height: 910px;
+  min-height: 908px;
   display: flex;
   justify-content: center;
-  padding-top: 65px;
+  padding-top: 60px;
   cursor: url("../../assets/main-page/cursor/nolmal-light.png"), default;
 }
 .wrapper .content .start-screen .start-screen__container {
@@ -47,12 +47,12 @@
 }
 .wrapper .content .start-screen .start-screen__container header.header .header__logo p.logo__subtitle {
   font-family: "Arial", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.1em;
   color: #FFFFFF;
   margin-left: 4px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 .wrapper .content .start-screen .start-screen__container header.header nav.navigation a.navigation__item {
   font-family: Arial, sans-serif;
@@ -74,9 +74,8 @@
   margin-top: 45px;
 }
 .wrapper .content .start-screen .start-screen__container .start-screen__content .start-screen__info {
-  margin-left: 1px;
   margin-right: 42px;
-  margin-top: -60px;
+  margin-top: -63px;
 }
 .wrapper .content .start-screen .start-screen__container .start-screen__content .start-screen__info h1.start-screen__content__title {
   font-size: 44px;
@@ -88,7 +87,7 @@
   font-size: 15px;
   line-height: 160%;
   color: #CDCDCD;
-  margin-top: 42px;
+  margin-top: 41px;
 }
 .wrapper .content .start-screen .start-screen__container .start-screen__content .start-screen__info button.start-screen__content__button {
   background-color: #F1CDB3;
@@ -98,7 +97,7 @@
   background: #FDDCC4;
 }
 .wrapper .content .start-screen .start-screen__container .start-screen__content .start-screen__image {
-  margin-top: 13px;
+  margin-top: 15px;
 }
 .wrapper .content .start-screen .start-screen__container .start-screen__content .start-screen__image img {
   width: 698px;
@@ -141,7 +140,7 @@
   color: #4C4C4C;
 }
 .wrapper .content .container .pets {
-  padding-top: 81px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 .wrapper .content .container .pets .pets__container {
@@ -200,9 +199,9 @@
 }
 .wrapper .content .container .pets .pets__container .pets__slider .slider__content .slider__content__card h3.card__name {
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 21px;
   line-height: 23px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: #545454;
 }
 .wrapper .content .container .pets .pets__container .pets__slider .slider__content .slider__content__card .card__button {
@@ -238,6 +237,9 @@
   margin-top: 60px;
   background: #F1CDB3;
   width: 261px;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .wrapper .content .container .pets .pets__container .pets__button:hover {
   background: #FDDCC4;
@@ -261,7 +263,7 @@
   color: #545454;
 }
 .wrapper .content .container .help .help__container .help__grid-content {
-  margin-top: 60px;
+  margin-top: 59px;
   height: 281px;
   display: flex;
   flex-direction: column;
@@ -293,8 +295,8 @@
 .wrapper .content .container .help .help__container .help__grid-content .grid__item h3.grid__item__name {
   margin-top: 28px;
   font-size: 21px;
-  line-height: 115%;
-  letter-spacing: 0.06em;
+  line-height: 120%;
+  letter-spacing: 0.08em;
   color: #545454;
 }
 .wrapper .content .container .donation {
@@ -311,7 +313,7 @@
   width: 505px;
 }
 .wrapper .content .container .donation .donation__container .donation__info {
-  margin-left: 32px;
+  margin-left: 30px;
 }
 .wrapper .content .container .donation .donation__container .donation__info h2.donation__info__title.title {
   font-size: 35px;
