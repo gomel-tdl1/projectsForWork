@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="content">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <h2 class="logo__title title">Cozy House</h2>
+                <p class="logo__subtitle subtitle">Shelter for pets in Boston</p>
+            </div>
+            <div class="header__burger"><span></span></div>
+            <nav class="navigation">
+                <a href="../../index.html" class="navigation__item pointer">About the shelter</a>
+                <a href="../pets/index.html" class="navigation__item navigation__item__active pointer">Our pets</a>
+                <a href="" class="navigation__item pointer">Help the shelter</a>
+                <a href="" class="navigation__item pointer">Contacts</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pets">
+        <div class="pets__bg">
+            <div class="pets__container">
+                <h2 class="pets__title title">Our friends who<br>
+                    are looking for a house</h2>
+                <div class="pets__slider">
+
+                    <div class="slider__content"></div>
+
+                    <div class="animal none">
+                        <div class="close__button"><img src="../../assets/main-page/animal/close.png" alt=""></div>
+                        <div class="animal__wrapper">
+                            <div class="animal__image"></div>
+                            <div class="info">
+                                <h2 class="name"></h2>
+                                <h3 class="type"></h3>
+                                <p class="description"></p>
+                                <div class="other">
+                                    <div class="item"><span></span><span></span></div>
+                                    <div class="item"><span></span><span></span></div>
+                                    <div class="item"><span></span><span></span></div>
+                                    <div class="item"><span></span><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="slider__control">
+                        <div class="slider__control__item" id='leftAll'><<</div>
+                        <div class="slider__control__item" id="left"><</div>
+                        <div class="slider__control__item item__count" data-counter="1">1</div>
+                        <div class="slider__control__item" id="right">></div>
+                        <div class="slider__control__item" id="rightAll">>></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__description">
+                <div class="footer__contacts">
+                    <h2 class="contacts__title title">For questions<br> and suggestions</h2>
+                    <a href="mailto:email@shelter.com" class="contacts__block pointer">
+                        <div class="block__logo"><img src="../../assets/main-page/footer/mail.png" alt=""></div>
+                        <div class="block__text">email@shelter.com</div>
+                    </a>
+                    <a href="tel:+13 674 567 75 54" class="contacts__block pointer">
+                        <div class="block__logo"><img src="../../assets/main-page/footer/phone.png" alt=""></div>
+                        <div class="block__text">+13 674 567 75 54</div>
+                    </a>
+                </div>
+                <div class="footer__position">
+                    <h2 class="position__title title">We are waiting for your visit</h2>
+                    <a href="https://www.google.ru/maps/place/1+Central+St,+Boston,+MA+02109,+%D0%A1%D0%A8%D0%90/@42.3585519,-71.056915,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370868bc2ce7b:0x82fa7db94f5fea9e!8m2!3d42.3585519!4d-71.0547263"
+                       target="_blank" class="position__block pointer">
+                        <div class="block__logo"><img src="../../assets/main-page/footer/pin.png" alt=""></div>
+                        <div class="block__text">1 Central Street, Boston<br> (entrance from the store)</div>
+                    </a>
+                    <a href="https://www.google.ru/maps/search/18+South+Park,+London/@51.4750066,-0.2308154,12z/data=!3m1!4b1"
+                       target="_blank" class="position__block pointer">
+                        <div class="block__logo"><img src="../../assets/main-page/footer/pin.png" alt=""></div>
+                        <div class="block__text">18 South Park, London</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__image"><img src="../../assets/main-page/footer/footer-puppy.png" alt=""></div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
